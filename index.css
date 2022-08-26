@@ -1,0 +1,29 @@
+.menu-principal {
+    width: 36%;
+    margin: 10% auto;
+}
+
+.botones {
+    padding: 1em 2em;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    border-color: #0A3871;
+    margin: 0.8em 3.5em;
+}
+
+.botones:hover {
+    cursor: pointer;
+}
+
+.btnIniciar {
+    padding: 2em 6em;    
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btnAgregar {
+    background-color: #F2F5FC;
+    color: #0A3871;
+    margin-left: 5em;
+}
