@@ -14,7 +14,9 @@ header {
 }
 
 main {
+    display: inline;
     height: 83%;
+    width: 100%;
 }
 
 .aluraLogo {
