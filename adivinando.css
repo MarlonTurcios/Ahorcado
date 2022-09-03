@@ -3,6 +3,34 @@
     margin: auto;
 }
 
+.ingresar-texto {
+    /* Fuente */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;    
+
+    /* Color y diseño */
+    color: #0A3871; 
+    background-color: #F2F5FC;
+    
+    border: none;
+    resize: none;
+
+    /*Textarea*/
+    height: 100%;
+    width: 100%;
+}
+
+::placeholder { 
+    color: #0A3871;
+}
+
+.feedBotones{
+    display: block;
+    margin: 1em;
+}
+
 .botones {
     padding: 1em 2em;
     border-radius: 24px;

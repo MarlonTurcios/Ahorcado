@@ -14,7 +14,7 @@ header {
 }
 
 main {
-    display: inline;
+    display: inline-block;
     height: 83%;
     width: 100%;
 }
