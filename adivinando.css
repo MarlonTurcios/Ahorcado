@@ -1,7 +1,74 @@
 .menu-principal, .seccionTextarea {
-    width: 41%;
+    width: 28%;
     margin: auto;
 }
+
+.ahorcado {
+    text-align: center;
+    height: 87%;
+}
+
+/*.base {
+    position: absolute;
+    left: 44%;
+    bottom: 36%;
+}
+
+.suelo {
+    position: absolute;
+    left: 35%;
+    bottom: 36%;
+}
+
+.techo {
+    position: absolute;
+    left: 44%;
+    bottom: 86%;
+}
+
+.lazo {
+    position: absolute;
+    left: 55.3%;
+    bottom: 79.5%;
+}
+
+.cabeza {
+    position: absolute;
+    left: 53.4%;
+    bottom: 71%;
+}
+
+.cuerpo {
+    position: absolute;
+    left: 55.3%;
+    bottom: 52%;
+}
+
+.brazo {
+    position: absolute;
+    bottom: 60%;
+}
+
+.brazoDerecho {
+    left: 53.1%;
+}
+
+.brazoIzquierdo {
+    left: 55.4%;
+}
+
+.pierna {
+    position: absolute;
+    bottom: 60%;
+}
+
+.piernaDerecha {
+    left: 53.1%;
+}
+
+.piernaIzquierda {
+    left: 55.4%;
+}*/
 
 .botones {
     padding: 1em 2em;
