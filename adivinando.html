@@ -17,7 +17,7 @@
     </header>
 
     <main>
-        <section class="ahorcado">
+        <!-- <section class="ahorcado"> 
             <div class="personaje">
                 <img src="imagenes/cabeza.svg" class="cabeza">
                 <img src="imagenes/cuerpo.svg" class="cuerpo">
@@ -32,15 +32,19 @@
                 <img src="imagenes/techo.svg" class="techo">
                 <img src="imagenes/lazo.svg" class="lazo">
             </div>
-            <!-- 
+            
             <div class="guiones">
                 <img src="imagenes/guiones.svg" class="guion">
             </div>
-            -->
+        </section>-->
+        <section id="sec-aparece-ahorcado" class="canvas">
+            <!-- Canvas -->
+            <canvas id="forca" width="1200" height="500"></canvas>
+            
+            <div class="subrayado"></div>
         </section>
-
         <section class="menu-principal">
-            <button id="btnNuevo" class="botones btnNuevo" onclick="window.location.href='adivinando.html'">Nuevo juego</button>
+            <button id="btnNuevo" class="botones btnNuevo" onclick="iniciarJuego()">Nuevo juego</button>
             <button id="btnDesistir" class="botones btnDesistir" onclick="window.location.href='index.html'">Desistir</button>
         </section>        
     </main> 
@@ -50,5 +54,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="canvas.js"></script>
 </body>
 </html>
